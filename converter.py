@@ -19,3 +19,9 @@ def binario_para_decimal():
 def limpar():
     output_label.config(text="")
 
+root = tk.Tk()
+root.title("Binário-Decimal Converter")
+
+menu_frame = tk.Frame(root)
+menu_frame.pack()
+
