@@ -41,3 +41,8 @@ decimal_para_binario_button.pack(side=tk.LEFT)
 
 limpar_button = tk.Button(menu_frame, text="Limpar", command=limpar)
 limpar_button.pack()
+
+input_field = tk.Entry(root)
+input_field.pack()
+
+root.mainloop()
