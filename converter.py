@@ -15,3 +15,7 @@ def binario_para_decimal():
         output_label.config(text=f"Decimal: {decimal_num}")
     except ValueError:
         output_label.config(text=f"Texto invalido por favor coloque um número binário")
+
+def limpar():
+    output_label.config(text="")
+
