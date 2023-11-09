@@ -25,3 +25,5 @@ root.title("Binário-Decimal Converter")
 menu_frame = tk.Frame(root)
 menu_frame.pack()
 
+decimal_para_binario_button = tk.Button(menu_frame, text="Decimal para binário", command=decimal_para_binario)
+decimal_para_binario_button.pack(side=tk.LEFT)
